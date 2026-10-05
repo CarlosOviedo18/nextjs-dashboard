@@ -2,7 +2,7 @@
 
 Panel de administración de facturas construido con **Next.js (App Router)**, basado en el curso oficial [Learn Next.js](https://nextjs.org/learn/dashboard-app). Permite ver métricas de ingresos, gestionar facturas (crear, editar, eliminar, buscar y paginar) y consultar clientes, todo protegido con inicio de sesión.
 
-## 🔐 Credenciales de prueba
+##  Credenciales de prueba
 
 Si quieres navegar por el dashboard, inicia sesión en `/login` con:
 
@@ -13,7 +13,7 @@ Si quieres navegar por el dashboard, inicia sesión en `/login` con:
 
 > Este usuario se crea al ejecutar el seed (`/seed`) a partir de [app/lib/placeholder-data.ts](app/lib/placeholder-data.ts). La contraseña se guarda hasheada con bcrypt en la base de datos.
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **[Next.js](https://nextjs.org/)** — App Router, Server Components, Server Actions, Turbopack en desarrollo
 - **[React 19](https://react.dev/)**
@@ -30,7 +30,7 @@ Si quieres navegar por el dashboard, inicia sesión en `/login` con:
 - **ESLint** — linting
 - **pnpm** — gestor de paquetes
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Login protegido**: todas las rutas `/dashboard/*` requieren sesión (ver [auth.config.ts](auth.config.ts) y [proxy.ts](proxy.ts)).
 - **Resumen**: tarjetas con totales, gráfico de ingresos y últimas facturas, con *streaming* y skeletons de carga.
@@ -38,7 +38,7 @@ Si quieres navegar por el dashboard, inicia sesión en `/login` con:
 - **Clientes**: tabla de clientes con sus totales.
 - **Manejo de errores**: páginas `error.tsx` y `not-found.tsx`, y validación de formularios con mensajes por campo.
 
-## 📁 Estructura principal
+##  Estructura principal
 
 ```
 app/
@@ -53,7 +53,7 @@ auth.config.ts          # Reglas de autorización y página de login
 proxy.ts                # Middleware que protege las rutas
 ```
 
-## 🚀 Cómo ejecutarlo localmente
+##  Cómo ejecutarlo localmente
 
 1. **Clona el repositorio**
 
@@ -93,7 +93,7 @@ proxy.ts                # Middleware que protege las rutas
 
 6. Abre [http://localhost:3000](http://localhost:3000) e inicia sesión con las credenciales de arriba.
 
-## 📜 Scripts
+##  Scripts
 
 | Comando      | Descripción                             |
 | ------------ | --------------------------------------- |
@@ -102,6 +102,6 @@ proxy.ts                # Middleware que protege las rutas
 | `pnpm start` | Ejecuta la app compilada                |
 | `pnpm lint`  | Revisa el código con ESLint             |
 
-## 👤 Autor
+## Autor
 
 **Carlos Oviedo** — [GitHub](https://github.com/CarlosOviedo18)
